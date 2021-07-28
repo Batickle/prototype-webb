@@ -1,0 +1,248 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+   text-align: center;
+}
+p {
+  color: #8f8f8f;
+}
+/* HEadings */
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.section-headings{
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 2;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: #fff;
+
+}
+
+#title {
+
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+}
+#title .container-fluid{
+  padding: 3% 15% 8%;
+}
+
+
+
+.text-left{
+  text-align: left;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navb-item {
+  padding: 0 18px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Download Button */
+/* There is already a bootstrap btn class but it is preferrable to use your own Custom class to make some changes bcs in future if create a one more btn the below
+customisation will apply to those btn also */
+.download-btn {
+  margin: 19% 10% 2% 0;
+}
+
+/* Title Image */
+.title-img {
+  transform: rotate(30deg);
+  float: left;
+  width: 55%;
+  position: absolute;
+  right: 26%;
+}
+@media (max-width:1110px) {
+    .title-img {
+    transform: rotate(0);
+    position: static;
+    width: auto;
+    }
+    .text-left{
+      text-align: center;
+    }
+
+}
+.positioning {
+  position: relative;
+  height: 400px;
+  /* NOTE: WHY height */
+  /* NOTE: Because :
+  Well, first think about why that's happening.
+
+The image is in a div, but div's only take the height of their contents.
+
+With the image now having been given a position of absolute,
+it is no longer in the flow of the HTML,
+so the div has no height.
+
+So, if you want the image to remain visible when on a mobile,
+you need to give the div it is in some height.
+Perhaps try 400 or 500 pixels... */
+}
+
+
+
+/* Features */
+#features {
+
+  font-family: 'Montserrat', sans-serif;
+
+  position: relative;
+  z-index: 1;
+}
+
+.feature-h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #ff4c68;
+}
+
+.feature-col {
+  padding: 0 4rem;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+}
+
+.testimonial-text , .price-heading{
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 60px 50px;
+}
+
+/* Price-list */
+#pricing {
+  padding: 100px;
+}
+
+
+
+.price-list {
+  padding: 3% 10% 0;
+}
+
+.header-2, .header-3 {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.btn-1, .btn-2, .btn-3 {
+  width: 100%;
+  color: #ff4c68;
+}
+
+.btn-1 {
+  border-color: #ff4c68;
+}
+
+.btn-1:hover {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.btn-2, .btn-3 {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.btn-2:hover, .btn-3:hover {
+  color: #fff;
+  background-color: #e33651;
+}
+
+.best-deal {
+  border-color: #ff4c68;
+}
+/* Call to Action */
+#cta{
+  padding: 8%;
+}
+.cta-header{
+  line-height:2 ;
+
+}
+.footer-download-btn {
+  margin: 6% 3% 2% 0;
+}
+/* Footer */
+#footer{
+  padding: 13% 0 0 0;
+
+}
+/* Footer icon */
+.insta{
+  background: linear-gradient(45deg,#fd1d1d, #e1306c, #c13584, #833ab4, #5851db,#405de6);
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.insta:hover{
+  background: linear-gradient(90deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.twitter{
+  color: #1DA1F2;
+}
+.twitter:hover{
+  color: #1893de;
+}
+.gmail{
+  color:#757575;
+}
+.gmail:hover{
+  color: #4d4d4d;
+}
+.insta, .fb, .twitter, .gmail{
+  padding: 0 5%;
+}
+/*font-family: 'Montserrat Alternates', sans-serif;
+
+font-family: 'Ubuntu', sans-serif; 620887*/
